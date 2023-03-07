@@ -1,0 +1,54 @@
+body {
+  background-color: #ecf2ff;
+}
+
+.headline {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: #4E6E81;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#full-name,
+#email,
+#feedback {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#record-btn,
+#submit-feedback {
+  background-color: #3e54ac;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#record-btn:hover,
+#submit-feedback:hover {
+  background-color: #655dbb;
+}
+
+#submit-feedback {
+  margin-left: 20vw;
+}
